@@ -1,0 +1,117 @@
+/* General Styles */
+body {
+  font-family: 'Poppins', sans-serif;
+  background: url('https://source.unsplash.com/1600x900/?gourmet-food') no-repeat center center/cover;
+  margin: 0;
+  padding: 0;
+  color: #d9c5c5;
+}
+
+/* Centered container with a modern card effect */
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 25px;
+  background: rgba(15, 15, 15, 0.95);
+  border-radius: 15px;
+  box-shadow: 0px 5px 15px rgba(255, 255, 255, 0.2);
+}
+
+/* Typography */
+h1, h2, h3 {
+  text-align: center;
+  color: #8a6dd3; /* Lavender */
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+/* Buttons */
+button {
+  display: inline-block;
+  width: 100%;
+  padding: 12px;
+  margin: 12px 0;
+  background: linear-gradient(135deg, #1477e1, #1a1a1a);
+  color: #eaeaea;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background: #8a6dd3; /* Lavender */
+  color: #1a1a1a;
+  transform: scale(1.05);
+}
+
+/* Inputs */
+input, textarea, select {
+  width: 100%;
+  padding: 10px;
+  margin: 7px 0;
+  border: 2px solid #8a6dd3; /* Lavender border */
+  border-radius: 8px;
+  background: #121212;
+  color: white;
+  font-size: 14px;
+  transition: all 0.3s ease;
+}
+
+input:focus, textarea:focus, select:focus {
+  border-color: #1477e1;
+  outline: none;
+  box-shadow: 0 0 8px rgba(20, 119, 225, 0.7);
+}
+
+/* Navbar */
+.navbar {
+  background: rgba(10, 10, 10, 0.9);
+  padding: 12px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 2px solid #8a6dd3;
+}
+
+.navbar a {
+  color: #eaeaea;
+  text-decoration: none;
+  padding: 12px 15px;
+  font-weight: 500;
+  transition: all 0.3s;
+}
+
+.navbar a:hover {
+  background: rgba(138, 109, 211, 0.3); /* Soft lavender hover */
+  border-radius: 6px;
+}
+
+/* Recipe Cards */
+.recipe-card {
+  background: linear-gradient(135deg, #1a1a1a, #1477e1);
+  border-radius: 12px;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+  margin: 12px 0;
+  padding: 18px;
+  color: white;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.recipe-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 8px 20px rgba(20, 119, 225, 0.6);
+}
+
+/* Footer */
+.footer {
+  background: rgba(0, 0, 0, 0.8);
+  color: silver;
+  text-align: center;
+  padding: 12px;
+  margin-top: 20px;
+  border-top: 2px solid #8a6dd3;
+}
